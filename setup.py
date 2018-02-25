@@ -43,7 +43,7 @@ setup(
     dependency_links = [
         ],
     package_dir={'edx2bigquery': 'edx2bigquery'},
-    package_data={'edx2bigquery': ['lib/*', 'bin/*'] },
+    package_data={'edx2bigquery': ['lib/*', 'bin/*', 'schemas/*'] },
     # package_data={ 'edx2bigquery': ['python_lib/*.py'] },
     # data_files = data_files,
     test_suite = "edx2bigquery.test",
