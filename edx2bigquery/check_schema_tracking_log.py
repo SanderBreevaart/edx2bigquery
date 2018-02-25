@@ -11,7 +11,7 @@ from collections import OrderedDict
 import os
 mypath = os.path.dirname(os.path.realpath(__file__))
 
-sfn = '%s/schemas/schema_tracking_log.json' % mypath
+sfn = '%s\\schemas\\schema_tracking_log.json' % mypath
 
 schema = json.loads(open(sfn).read())['tracking_log']
 
